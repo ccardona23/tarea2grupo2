@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #contenedor{
+     width: 1200px;
+     height: 1000px;
+     margin: 5em auto;
+     padding: 0.5em;
+     box-shadow: 0px 2px 2px;
+ }
+ 
+ #header{
+     height: 14%;
+     background: rgb(1, 6, 75);
+ 
+ }
+ 
+ #menu{
+     height: 6%;
+     background: rgba(92, 0, 116, 0.815);
+     padding: 0.5em;
+     margin: auto;
+ }
+ 
+ #contenido{
+     height: 69%;
+     background: wheat;
+ }
+ 
+ #fooder{
+     height: 10%;
+     background: rgb(1, 6, 75);
+ 
+ }
+ 
+ #section{
+     height: 100%;
+     width: 69%;
+     background-image: url('fotos/fondo.png');
+     background-position: right;
+     float: left;
+ }
+ 
+ #aside{
+     height: 100%;
+     width: 31%;
+     background: rgb(216, 211, 216);
+     float: right;
+ }
+ 
+ #header .encabezado {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     padding: 1.5em;
+   }
+ 
+   .btn {
+     border: none; 
+     color: rgb(0, 0, 0); 
+     padding: 14px 28px; 
+     cursor: pointer; 
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 20px;
+   }
+   
+   .inicio {background-color: #ebebeb;} /* Green */
+   .inicio:hover {background-color:#e99cdc;}
+   .inicio {width: 25%; height: 100%};
+   
+   .Articulos {background-color: #ebebeb;}
+   .Articulos:hover {background-color: #e99cdc;}
+   .Articulos {width: 25%; height: 100%;}
+   
+   .Categoria {background-color: #ebebeb;} /* Orange */
+   .Categoria:hover {background: #e99cdc;}
+   .Categoria {width: 25%; height: 100%;}
+   
+   .Contacto {background-color: #ebebeb;} /* Red */
+   .Contacto:hover {background: #e99cdc;}
+   .Contacto {width: 23%; height: 100%;}
+   
+   #integrantes{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 39%;
+ }
+ 
+ #foto1{
+     height: 40%;
+     width: 45%;
+     float: left;
+     padding: 0.5em;
+     cursor: pointer;
+ }
+ .foto1{
+   transition-duration: 0.5s;
+ }
+ .foto1:hover{
+     transform: scale(1.4);
+ }
+ #foto2{
+     height: 40%;
+     width: 35%;
+     float: right;
+     padding: 1em;
+     cursor: pointer;
+ }
+ .foto2{
+     transition-duration: 0.5s;
+ }
+ .foto2:hover{
+     transform: scale(1.4);
+ }
+ #foto3{
+     height: 41%;
+     width: 34%;
+     float: left;
+     padding: 1.5em ;
+     cursor: pointer;
+ }
+ .foto3{
+     transition-duration: 0.5s;
+ }
+ .foto3:hover{
+     transform: scale(1.4);
+ }
+ #foto4{
+     width: 35%;
+     height: 40%;
+     float: right;
+     padding-right: 1em;
+     padding: 1.2em;
+     border-radius: 6px;    
+     cursor: pointer;
+ }
+ .foto4{
+     transition-duration: 0.5s;
+ }
+ .foto4:hover{
+     transform: scale(1.4);
+ 
+ }
+ 
+ #titulo{
+     width: 90%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ #aside p,p{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     color: black;
+     padding-left: 0.3em;
+     padding-right: 0.2em;
+     text-align: justify;
+ }
+ 
+ #fooder h1{
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 45%;
+     padding: 2em;
+ }
+ 
+ 
